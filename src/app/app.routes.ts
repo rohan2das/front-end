@@ -6,5 +6,5 @@ import { AddDataComponent } from './add-data/add-data.component';
 export const routes: Routes = [
     {path: '', redirectTo: 'view-product', pathMatch: 'full'},
     {path: 'view-product', component: ListDataComponent},
-    {path: 'add-product', component: AddDataComponent}
+    {path: 'add-product', component: AddDataComponent},
 ];

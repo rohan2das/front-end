@@ -31,5 +31,5 @@ export class AddDataComponent {
 
     gotoProductList(){
       this.router.navigate(['/view-product']);
-    }
+    }  
 }
